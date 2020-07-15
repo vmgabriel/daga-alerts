@@ -1,9 +1,9 @@
 version: "3.4"
 
 services:
-  daga-upload-file-service:
+  app:
     build:
       context: .
       dockerfile: DockerFile
     ports:
-      - 7201:7201
+      - 7204:7204
